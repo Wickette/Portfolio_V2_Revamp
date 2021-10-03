@@ -9,7 +9,7 @@ GITHUB Code URL
 https://github.com/Wickette/Portfolio_V2_Revamp/
 
 WEBSITE URL
-
+https://wickette.github.io/Portfolio_V2_Revamp/
 
 ![image](https://user-images.githubusercontent.com/87992263/135774600-d7bfcf20-fc50-44d3-afba-71c8bec5a1b8.png)
 ![image](https://user-images.githubusercontent.com/87992263/135774605-8b5e4608-fa2c-4dad-b268-7c2bae040277.png)
