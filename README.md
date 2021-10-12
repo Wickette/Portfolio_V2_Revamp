@@ -1,9 +1,42 @@
-# Portfolio_V2_Revamp
-// Complete revamp of portfolio page
-// Used tailwind CSS framework
-// Added links to different pages
-// Added contact info section/ about me section/ projects section
-// links to 3 projects added
+# Updated Developer Portfolio
+
+  ## License
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+  https://opensource.org/licenses/MIT
+
+  ## Description
+  Updated initial portfolio page using Tailwind. Added new pages so that the portfolio is more dynamic. Selected a color scheme. Added GitHub and LinkedIn links as well as my current resume.
+
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributions](#contributions)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  * [GitHub](#github)
+  * [Links and Images](#links)
+
+  ## Installation
+  N/A
+
+  ## Usage
+  Open the web link https://wickette.github.io/Portfolio_V2_Revamp/
+
+  ## Contributions
+  Made by Stephanie Clark
+
+  ## Tests
+  N/A
+
+  ## Questions
+  Please reach out to me via email with any questions/issues/bug reports
+  
+  Send me an email at sc.aurora92@gmail.com
+
+  ## GitHub
+  https://github.com/Wickette
+
+  ## Links
 
 GITHUB Code URL
 https://github.com/Wickette/Portfolio_V2_Revamp/
