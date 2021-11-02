@@ -10,16 +10,7 @@
 </head>
 
 <body class="bg-purple-200">
-    <nav class="
-        relative
-        sticky
-        top-0
-        bg-green-100
-        text-yellow-100
-        p-2
-        flex
-        justify-around
-      ">
+    <nav class="relative sticky top-0 bg-green-100 text-yellow-100 p-2 flex justify-around">
         <a class="hover:bg-yellow-100 rounded hover:text-black hover:opacity-30" href="./index.html">Home</a>
         <a class="hover:bg-yellow-100 rounded hover:text-black hover:opacity-30" href="./aboutMe.html">About Me</a>
         <a class="hover:bg-yellow-100 rounded hover:text-black hover:opacity-30" href="./projectsPage.html">Projects</a>
@@ -32,7 +23,22 @@
             <h2 class="text-6xl my-10 font-extrabold text-yellow-100">PROJECTS</h2>
             <hr class="mb-6 p-1 bg-green-100" />
             <section class="mt-6 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-x-6 gap-y-8">
-                <div>
+                <div style="display: flex; flex-direction: column;">
+                    <article class="relative h-64 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out mb-4" style="background-image: url('./public/TeachThruTalk.PNG')">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out"></div>
+                        <div class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
+                            <h3 class="text-center">
+                                <a class="text-white text-2xl font-bold text-center" href="https://teach-through-talk.herokuapp.com/" target="blank">
+                                    <span class="absolute inset-0"></span>
+                                    Teach Thru Talk <br /> (team project)
+                                </a>
+                            </h3>
+                        </div>
+                    </article>
+                    <p class="text-yellow-100" style="text-align: center; font-style: italic; margin-bottom: 10px;">An messenger style app created to help people around the world converse and learn lanaguages</p>
+                    <a style="text-align: center;" href="https://github.com/FilipAlH/TeachThruTalk.git" target="blank" class="bg-green-100 opacity-70 text-yellow-100 hover:bg-yellow-100 font-bold uppercase text-base  px-8 py-3 rounded shadow-md hover:shadow-lg hover:text-black outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">GitHub Code</a>
+                </div>
+                <div style="display: flex; flex-direction: column;">
                     <article class="relative w-full h-64 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out mb-4" style="background-image: url(./public/happeningWeather.png)">
                         <div class="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out"></div>
                         <div class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
@@ -45,12 +51,11 @@
                             </h3>
                         </div>
                     </article>
-                    <a class="text-yellow-100 mx-36" href="https://github.com/Wickette/HappeningWeather.git"
-                        target="blank">GitHub Code</a>
+                    <p class="text-yellow-100" style="text-align: center; font-style: italic; margin-bottom: 10px;">An app created using OpenWeather API to dynamically grab weather info from around the world</p>
+                    <a style="text-align: center;" href="https://github.com/Wickette/HappeningWeather.git" target="blank" class="bg-green-100 opacity-70 text-yellow-100 hover:bg-yellow-100 font-bold uppercase text-base px-8 py-3 rounded shadow-md hover:shadow-lg hover:text-black outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">GitHub Code</a>
                 </div>
-                <div>
-                    <article class="relative w-full h-64 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out mb-4
-              " style="background-image: url(./public/work-dayScheduler.png)">
+                <div style="display: flex; flex-direction: column;">
+                    <article class="relative w-full h-64 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out mb-4" style="background-image: url(./public/work-dayScheduler.png)">
                         <div class="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out"></div>
                         <div class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
                             <h3 class="text-center">
@@ -62,10 +67,25 @@
                             </h3>
                         </div>
                     </article>
-                    <a class="text-yellow-100 mx-36" href="https://github.com/Wickette/Daily_Work_Scheduler.git"
-                        target="blank">GitHub Code</a>
+                    <p class="text-yellow-100" style="text-align: center; font-style: italic; margin-bottom: 10px;">An app created using Moment.js to schedule your day based on the current time</p>
+                    <a style="text-align: center;" href="https://github.com/Wickette/Daily_Work_Scheduler.git" target="blank" class="bg-green-100 opacity-70 text-yellow-100 hover:bg-yellow-100 font-bold uppercase text-base  px-8 py-3 rounded shadow-md hover:shadow-lg hover:text-black outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">GitHub Code</a>
                 </div>
-                <div>
+                <div style="display: flex; flex-direction: column;">
+                    <article class="relative w-full h-64 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out mb-4" style="background-image: url('./public/noteTaker.PNG')">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out"></div>
+                        <div class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
+                            <h3 class="text-center">
+                                <a class="text-white text-2xl font-bold text-center" href="https://vast-ravine-20794.herokuapp.com/" target="blank">
+                                    <span class="absolute inset-0"></span>
+                                    Basic Note Taker
+                                </a>
+                            </h3>
+                        </div>
+                    </article>
+                    <p class="text-yellow-100" style="text-align: center; font-style: italic; margin-bottom: 10px;">A basic note taker app using Node.js and Express.js to add, update and delete notes </p>
+                    <a style="text-align: center;" href="https://github.com/Wickette/newNoteTaker.git" target="blank" class="bg-green-100 opacity-70 text-yellow-100 hover:bg-yellow-100 font-bold uppercase text-base  px-8 py-3 rounded shadow-md hover:shadow-lg hover:text-black outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">GitHub Code</a>
+                </div>
+                <div style="display: flex; flex-direction: column;">
                     <article class="relative w-full h-64 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out mb-4" style="background-image: url('./public/Muscles&Meals.PNG')">
                         <div class="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out"></div>
                         <div class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
@@ -78,24 +98,10 @@
                             </h3>
                         </div>
                     </article>
-                    <a class="text-yellow-100 mx-36" href="https://github.com/Wickette/V_A_S_T.git"
-                        target="blank">GitHub Code</a>
+                    <p class="text-yellow-100" style="text-align: center; font-style: italic; margin-bottom: 10px;">An app created to help users pick new exercises and find new meal prep ideas based on calorie intake</p>
+                    <a style="text-align: center;" href="https://github.com/Wickette/V_A_S_T.git" target="blank" class="bg-green-100 opacity-70 text-yellow-100 hover:bg-yellow-100 font-bold uppercase text-base  px-8 py-3 rounded shadow-md hover:shadow-lg hover:text-black outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">GitHub Code</a>
                 </div>
-                <div>
-                    <article class="relative h-64 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out mb-4" style="background-image: url('')">
-                        <div class="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out"></div>
-                        <div class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
-                            <h3 class="text-center">
-                                <a class="text-white text-2xl font-bold text-center" href="#" target="">
-                                    <span class="absolute inset-0"></span>
-                                    ~ Coming Soon ~
-                                </a>
-                            </h3>
-                        </div>
-                    </article>
-                    <a class="text-yellow-100 mx-36" href="#" target="">GitHub Code</a>
-                </div>
-                <div>
+                <div style="display: flex; flex-direction: column;">
                     <article class="relative w-full h-64 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out mb-4" style="background-image: url('')">
                         <div class="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out"></div>
                         <div class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
@@ -107,21 +113,7 @@
                             </h3>
                         </div>
                     </article>
-                    <a class="text-yellow-100 mx-36" href="#" target="">GitHub Code</a>
-                </div>
-                <div>
-                    <article class="relative w-full h-64 bg-cover bg-center group rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition duration-300 ease-in-out mb-4" style="background-image: url('')">
-                        <div class="absolute inset-0 bg-black bg-opacity-50 group-hover:opacity-75 transition duration-300 ease-in-out"></div>
-                        <div class="relative w-full h-full px-4 sm:px-6 lg:px-4 flex justify-center items-center">
-                            <h3 class="text-center">
-                                <a class="text-white text-2xl font-bold text-center" href="#" target="">
-                                    <span class="absolute inset-0"></span>
-                                    ~ Coming Soon ~
-                                </a>
-                            </h3>
-                        </div>
-                    </article>
-                    <a class="text-yellow-100 mx-36" href="#" target="">GitHub Code</a>
+                    <a style="text-align: center;" href="https://github.com/Wickette/HappeningWeather.git" target="blank" class="bg-green-100 opacity-70 text-yellow-100 hover:bg-yellow-100 font-bold uppercase text-base  px-8 py-3 rounded shadow-md hover:shadow-lg hover:text-black outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">GitHub Code</a>
                 </div>
             </section>
         </article>
